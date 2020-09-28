@@ -1,30 +1,29 @@
+
 {
-    "name": "dnd4e",
-    "title": "Dungeons & Dragons 4th Edition",
-    "description": "The best edition of D&D",
-    "version": 0.2,
-    "minimumCoreVersion": "0.4.4",
-    "templateVersion": 2,
-    "author": "mbutler",
-    "esmodules": ["module/dnd4e.js"],
-    "styles": [
-      "styles/dnd4e.css"
-    ],
-    "packs": [],
-    "languages": [
-      {
-        "lang": "en",
-        "name": "English",
-        "path": "lang/en.json"
-      }
-    ],
-    "socket": false,
-    "initiative": "1d20",
-    "gridDistance": 5,
-    "gridUnits": "ft",
-    "primaryTokenAttribute": "health",
-    "secondaryTokenAttribute": "power",
-    "url": "https://github.com/mbutler/foundryvtt-dnd4e",
-    "manifest": "https://raw.githubusercontent.com/mbutler/foundryvtt-dnd4e/master/system.json",
-    "download": "https://github.com/yoshifanx/foundryvtt-dnd4e/blob/master/foundryvtt-dnd4e-master.zip"
-  }
+  "name": "dnd4e",
+  "title": "Dungeons & Dragons 4th Edition",
+  "description": "The Best Version of D&D",
+  "version": "0.1.7",
+  "minimumCoreVersion": "0.4.4",
+  "compatibleCoreVersion": "0.6.6",
+  "author": "blah",
+  "scripts": [],
+  "esmodules": ["dnd4e.js"],
+  "styles": [
+    "dnd4e.css",
+  ],
+  "packs": [],
+  "languages": [],
+  "socket": true,
+  "gridDistance": 1,
+  "gridUnits": "",
+  "primaryTokenAttribute": "mech.hp",
+  "secondaryTokenAttribute": "mech.heat",
+  "url": "https://github.com/mbutler/foundryvtt-dnd4e",
+  "manifest": "https://raw.githubusercontent.com/mbutler/foundryvtt-dnd4e/master/system.json",
+  "download": "https://github.com/yoshifanx/foundryvtt-dnd4e/blob/master/foundryvtt-dnd4e-master.zip",
+  "license": "GNU GPLv3",
+  "readme": "",
+  "bugs": "",
+  "changelog": ""
+}
