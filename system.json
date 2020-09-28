@@ -27,4 +27,7 @@
     "url": "https://github.com/mbutler/foundryvtt-dnd4e",
     "manifest": "https://raw.githubusercontent.com/mbutler/foundryvtt-dnd4e/master/system.json",
     "download": "https://github.com/yoshifanx/foundryvtt-dnd4e/blob/master/foundryvtt-dnd4e-master.zip"
+    "readme": "",
+  "bugs": "",
+  "changelog": ""
   }
